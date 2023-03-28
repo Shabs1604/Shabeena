@@ -114,8 +114,9 @@ if user_file is not None:
 
         # data processing for Loan Amount versus Interest rate
         df["loan_amnt"] = df["loan_amnt"].sort()
-        for i in df["int_rate"]:
-            p = re.split{}
+        #for i in df["int_rate"]:
+         #   p = "\d{1,2}.\d{1,2}"
+
 
         st.title("Loan Amount versus Interest rate")
         fig,ax = plt.subplots()
