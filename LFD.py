@@ -113,7 +113,7 @@ if user_file is not None:
         st.header("Bivariate Analysis")
 
         # data processing for Loan Amount versus Interest rate
-        df["loan_amnt"] = df["loan_amnt"].sort()
+        #df2 = df["loan_amnt"].sort()
         #for i in df["int_rate"]:
          #   p = "\d{1,2}.\d{1,2}"
 
